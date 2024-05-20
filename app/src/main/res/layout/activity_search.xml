@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/searchig4"
+    tools:context=".SearchActivity">
+
+    <ImageButton
+        android:id="@+id/ibHome2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="690dp"
+        android:layout_marginRight="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/icon" />
+
+    <ImageButton
+        android:id="@+id/ibSearch2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="0dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/search" />
+
+    <ImageButton
+        android:id="@+id/ibUnggah2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="690dp"
+        android:layout_marginRight="10dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/shape" />
+
+    <ImageButton
+        android:id="@+id/ibReelss2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="690dp"
+        android:layout_marginRight="11dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/reels" />
+
+    <ImageButton
+        android:id="@+id/ibProfil2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="690dp"
+        android:layout_marginRight="10dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ellipse_8" />
+
+
+</LinearLayout>
